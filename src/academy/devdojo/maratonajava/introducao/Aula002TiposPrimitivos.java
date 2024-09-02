@@ -5,8 +5,8 @@ public class Aula002TiposPrimitivos {
         /* TIPOS PRIMITIVOS */
         // int, double, float, char, byte, shot, long, boolean
         int age = 30;
-        double wage = 1000.50;
-        float price = 10.5f;
+        double wage = 1000.50D;
+        float price = 10.5F;
         char letter = 'A';
         byte octet = 127;
         short curto = 32767;
