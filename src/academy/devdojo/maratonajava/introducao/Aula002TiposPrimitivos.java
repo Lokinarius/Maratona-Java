@@ -12,6 +12,7 @@ public class Aula002TiposPrimitivos {
         short curto = 32767;
         long longe = 9223372036854775807L;
         boolean verdadeiro = true;
+        boolean falso = false;
 
         System.out.println("Idade: " + age);
         System.out.println("Salário: " + wage);
@@ -21,5 +22,23 @@ public class Aula002TiposPrimitivos {
         System.out.println("Curto: " + curto);
         System.out.println("Longo: " + longe);
         System.out.println("Verdadeiro: " + verdadeiro);
+        System.out.println("Falso: " + falso);
+
+        /* STRINGS EM JAVA SÃO UMA CLASSE */
+        // Sempre começam com letra maiúscula
+        // Podem conter caracteres especiais, espaço, letras minúsculas e números
+        // Não podem começar ou terminar com um número
+        // Não podem conter espaço em branco em sequência
+        // Podem ser concatenados usando o operador "+"
+        String name = "William S. R. Galvão";
+        String job = "Desenvolvedor";
+        String address = "Rua 123, 1234-5678";
+
+        System.out.println("Nome: " + name);
+        System.out.println("Profissão: " + job);
+        System.out.println("Endereço: " + address);
+
+
+
     }
 }
