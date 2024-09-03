@@ -6,6 +6,8 @@ public class Aula004Operadores {
         // Aritméticos: +, -, *, /, %
         // Relacionais: >, <, >=, <=, ==,!=
         // Lógicos: && (AND), || (OR),! (NOT)
+        // Unários: ++ (incremento), -- (decremento)
+        // Atribuição: +=, -=, *=, /=, %=
         int a = 10;
         int b = 5;
         boolean c = true;
@@ -41,6 +43,28 @@ public class Aula004Operadores {
         System.out.println("NOT / NEGADO");
         System.out.println("NOT true = " + (!c)); // false, porque NOT true is false
         System.out.println("NOT false = " + (!d)); // true, porque NOT false is true
+        System.out.println("\n");
 
+        System.out.println("Operadores Unários");
+        // Incremento
+        a++; // a = a + 1
+        System.out.println("a++ = a + 1, a = " + a); // a = 11
+        a--; // a = a - 1
+        System.out.println("a-- = a - 1, a = " + a); // a = 10
+        System.out.println("\n");
+
+        System.out.println("Operadores de Atribuição");
+        // Atribuição
+        a += 5; // a = a + 5
+        System.out.println("'a += 5' = a + 5, a = " + a); // a = 15
+        a -= 5; // a = a - 5
+        System.out.println("'a -= 5' = a - 5, a = " + a); // a = 10
+        a *= 5; // a = a * 5
+        System.out.println("'a *= 5' = a * 5, a = " + a); // a = 50
+        a /= 5; // a = a / 5
+        System.out.println("'a /= 5' = a / 5, a = " + a); // a = 10
+        a %= 5; // a = a % 5
+        System.out.println("'a %= 5' = a % 5, a = " + a); // a = 0
+        System.out.println("\n");
     }
 }
