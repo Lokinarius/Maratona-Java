@@ -31,12 +31,12 @@ public class Aula004Operadores {
         System.out.println("Operadores Lógicos");
         // AND
         System.out.println("AND / E");
-        System.out.println("true e true = " + (c && c)); // true, porque true AND true is true
-        System.out.println("true e false = " + (c && d)); // true, porque true AND true is true
+        System.out.println("verdadeiro e verdadeiro = " + (c && c)); // true, porque true AND true is true
+        System.out.println("verdadeiro e falso = " + (c && d)); // true, porque true AND true is true
         //OR
         System.out.println("OR / OU");
-        System.out.println("true ou true = " + (c || c)); // true, porque true OR true is true
-        System.out.println("true ou false = " + (c || d)); // true, porque true OR true is true
+        System.out.println("verdadeiro ou verdadeiro = " + (c || c)); // true, porque true OR true is true
+        System.out.println("verdadeiro ou falso = " + (c || d)); // true, porque true OR true is true
         // NOT
         System.out.println("NOT / NEGADO");
         System.out.println("NOT true = " + (!c)); // false, porque NOT true is false
