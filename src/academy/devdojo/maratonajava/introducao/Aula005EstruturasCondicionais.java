@@ -4,12 +4,15 @@ public class Aula005EstruturasCondicionais {
     public static void main(String[] args) {
         /* ESTRUTURAS CONDICIONAIS */
         int age = 18;
-        boolean isAdult = age >= 18;
 
-        if (isAdult) {
-            System.out.println("Você é maior de idade.");
-        } else {
-            System.out.println("Você é menor de idade.");
+        if (age <= 12) {
+            System.out.println("Você é uma criança.");
+        } else if (age > 12 && age < 18) {
+            System.out.println("Você é adolescente.");
+        } else if (age >= 18 && age <= 60){
+            System.out.println("Você é adulto.");
+        }else{
+            System.out.println("Você é idoso.");
         }
 
         int number = 5;
