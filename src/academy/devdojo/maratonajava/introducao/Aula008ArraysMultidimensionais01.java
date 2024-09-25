@@ -19,7 +19,5 @@ public class Aula008ArraysMultidimensionais01 {
             }
             System.out.println();
         }
-
-
     }
 }
