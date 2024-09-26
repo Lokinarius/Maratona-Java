@@ -19,5 +19,14 @@ public class Aula008ArraysMultidimensionais01 {
             }
             System.out.println();
         }
+
+        // Metodo arrBase
+        System.out.println("=========================");
+        for (int[] arrBase: matriz){
+            for (int num: arrBase){
+                System.out.print(num + " ");
+            }
+
+        }
     }
 }
