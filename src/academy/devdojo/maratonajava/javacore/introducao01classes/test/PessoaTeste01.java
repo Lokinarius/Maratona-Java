@@ -1,5 +1,5 @@
-package academy.devdojo.maratonajava.javacore.introducaoclasses.test;
-import academy.devdojo.maratonajava.javacore.introducaoclasses.dominio.Pessoa;
+package academy.devdojo.maratonajava.javacore.introducao01classes.test;
+import academy.devdojo.maratonajava.javacore.introducao01classes.dominio.Pessoa;
 public class PessoaTeste01 {
     public static void main(String[] args) {
         Pessoa sayajin = new Pessoa();
