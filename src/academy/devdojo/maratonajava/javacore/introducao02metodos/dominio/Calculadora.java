@@ -15,6 +15,14 @@ public class Calculadora {
     }
     //[DIVISÃO]
     public double dividir(double a, double b) {
-        return a / b;
+        if (a == 0){
+            throw new IllegalArgumentException("O não pode ser dividido");
+        } else {
+            if (b == 0){
+                throw new IllegalArgumentException("Não é permitido dividir por 0");
+            } else {
+                return a / b;
+            }
+        }
     }
 }
