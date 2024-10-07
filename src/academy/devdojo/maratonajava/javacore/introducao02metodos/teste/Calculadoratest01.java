@@ -11,10 +11,10 @@ public class Calculadoratest01 {
         int num1 = scanner.nextInt();
         // Operação
         System.out.println("Escolha a operação: ");
-        System.out.println("1 - Soma");
-        System.out.println("2 - Subtração");
-        System.out.println("3 - Multiplicação");
-        System.out.println("4 - Divisão");
+        System.out.println("[1] Soma");
+        System.out.println("[2] Subtração");
+        System.out.println("[3] Multiplicação");
+        System.out.println("[4] Divisão");
         int operacao = scanner.nextInt();
         // Segundo número
         System.out.print("Digite o segundo número: ");
