@@ -4,11 +4,13 @@ import academy.devdojo.maratonajava.javacore.introducao02metodos.dominio.Calcula
 import java.util.Scanner;
 public class Calculadoratest01 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in); // Create a Scanner object
+        Scanner scanner = new Scanner(System.in); // Aberto o  Scanner
         Calculadora cal = new Calculadora();
+
         // Primeiro número
         System.out.print("Digite o primeiro número: ");
-        int num1 = scanner.nextInt();
+        double num1 = scanner.nextDouble();
+
         // Operação
         System.out.println("Escolha a operação: ");
         System.out.println("[1] Soma");
@@ -16,27 +18,33 @@ public class Calculadoratest01 {
         System.out.println("[3] Multiplicação");
         System.out.println("[4] Divisão");
         int operacao = scanner.nextInt();
+
         // Segundo número
         System.out.print("Digite o segundo número: ");
-        int num2 = scanner.nextInt();
+        double num2 = scanner.nextDouble();
+
         // Realiza a operação
         switch (operacao){
             case 1:
-                System.out.println("Resultado: " + cal.somar(num1, num2));
+                System.out.println("Resultado: " + cal.somar((int) num1, (int) num2));
                 break;
             case 2:
                 System.out.println("Resultado: " + cal.subtrair(num1, num2));
                 break;
             case 3:
-                System.out.println("Resultado: " + cal.multiplicar(num1, num2));
+                System.out.println("Resultado: " + cal.multiplicar((int) num1,(int) num2));
                 break;
             case 4:
-                System.out.println("Resultado: " + cal.dividir(num1, num2));
-
+                try {
+                    System.out.println("Resultado: " + cal.dividir(num1, num2));
+                } catch (IllegalArgumentException e) {
+                    System.out.println(e.getMessage());
+                }
                 break;
             default:
                 System.out.println("Operação inválida!");
                 return;
         }
+        scanner.close(); // Fechado o Scanner
     }
 }
