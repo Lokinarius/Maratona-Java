@@ -2,7 +2,7 @@ package academy.devdojo.maratonajava.javacore.introducao02metodos.teste;
 
 import academy.devdojo.maratonajava.javacore.introducao02metodos.dominio.Calculadora;
 import java.util.Scanner;
-public class Calculadoratest01 {
+public class CalculadoraTest01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in); // Aberto o  Scanner
         Calculadora cal = new Calculadora();
