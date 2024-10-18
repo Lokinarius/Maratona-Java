@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fa01836-9cda-4363-8e0a-38b2263d9071" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/introducao02metodos/dominio/ImpressoraEstudante.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/introducao02metodos/teste/EstudanteTeste01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/introducao02metodos/teste/EstudanteTeste01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/introducao02metodos/dominio/Estudante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/introducao02metodos/dominio/Estudante.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +63,7 @@
       <recent name="academy.devdojo.maratonajava.introducao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Calculadoratest01">
+  <component name="RunManager" selected="Application.CalculadoraTest01">
     <configuration name="Aula007Arrays03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="academy.devdojo.maratonajava.introducao.Aula007Arrays03" />
       <module name="Maratona-Java-Samurai" />
@@ -104,8 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Calculadoratest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="academy.devdojo.maratonajava.javacore.introducao02metodos.teste.Calculadoratest01" />
+    <configuration name="CalculadoraTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="academy.devdojo.maratonajava.javacore.introducao02metodos.teste.CalculadoraTest01" />
       <module name="Maratona-Java-Samurai" />
       <extension name="coverage">
         <pattern>
@@ -132,7 +131,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Calculadoratest01" />
+        <item itemvalue="Application.CalculadoraTest01" />
         <item itemvalue="Application.ProfessorTest" />
         <item itemvalue="Application.Aula008ArraysMultidimensionais02" />
         <item itemvalue="Application.Aula008ArraysMultidimensionais01" />
