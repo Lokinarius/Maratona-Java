@@ -19,5 +19,10 @@ public class EstudanteTest02 {
         estudante03.nome = "Sasuke";
         estudante03.idade = 17;
         estudante03.sexo = 'M';
+
+        estudante01.imprime();
+        estudante02.imprime();
+        estudante03.imprime();
+
     }
 }
