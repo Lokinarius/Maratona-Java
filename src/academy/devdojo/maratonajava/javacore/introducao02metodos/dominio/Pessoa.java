@@ -6,9 +6,9 @@ public class Pessoa {
     private char sexo;
 
     public void imprime(){
-        System.out.println("Nome: " + this.nome);
+        System.out.println("Nome: " + getNome());
         System.out.println("Idade: " + this.idade);
-        System.out.println("Sexo: " + this.sexo);
+        System.out.println("Sexo: " + getSexo());
     }
 
     // [GETTERS AND SETTERS]
