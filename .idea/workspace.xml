@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fa01836-9cda-4363-8e0a-38b2263d9071" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/introducao03sobrecarga/dominio/Anime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/introducao03sobrecarga/teste/AnimeTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/introducao04construtores/domain/Anime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/introducao04construtores/teste/Animetest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/introducao03sobrecarga/dominio/Anime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/introducao03sobrecarga/dominio/Anime.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,34 +34,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AnimeTeste.executor": "Run",
-    "Application.Aula004Operadores.executor": "Run",
-    "Application.Aula005EstruturasCondicionais01.executor": "Debug",
-    "Application.Aula005EstruturasCondicionais03Switch.executor": "Run",
-    "Application.Aula006EstruturaDeRepeticao01.executor": "Run",
-    "Application.Aula006EstruturasDeRepeticao02.executor": "Run",
-    "Application.Aula006EstruturasDeRepeticao03.executor": "Run",
-    "Application.Aula006EstruturasDeRepeticao04Ex.executor": "Run",
-    "Application.Aula006EstruturasDeRepeticao05.executor": "Run",
-    "Application.Aula007Arrays01.executor": "Run",
-    "Application.Aula007Arrays03.executor": "Run",
-    "Application.Aula008ArraysMultidimensionais01.executor": "Run",
-    "Application.Aula008ArraysMultidimensionais02.executor": "Run",
-    "Application.Calculadoratest01.executor": "Run",
-    "Application.FuncionarioTest.executor": "Run",
-    "Application.OlaMundo.executor": "Run",
-    "Application.ProfessorTest.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Repositorios/JAVA/Maratona-Java-Samurai",
-    "onboarding.tips.debug.path": "D:/Repositorios/JAVA/Maratona-Java-Samurai/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AnimeTeste.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Aula004Operadores.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Aula005EstruturasCondicionais01.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Aula005EstruturasCondicionais03Switch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Aula006EstruturaDeRepeticao01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Aula006EstruturasDeRepeticao02.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Aula006EstruturasDeRepeticao03.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Aula006EstruturasDeRepeticao04Ex.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Aula006EstruturasDeRepeticao05.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Aula007Arrays01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Aula007Arrays03.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Aula008ArraysMultidimensionais01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Aula008ArraysMultidimensionais02.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Calculadoratest01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FuncionarioTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OlaMundo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProfessorTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Repositorios/JAVA/Maratona-Java-Samurai&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Repositorios/JAVA/Maratona-Java-Samurai/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="academy.devdojo.maratonajava.introducao" />
