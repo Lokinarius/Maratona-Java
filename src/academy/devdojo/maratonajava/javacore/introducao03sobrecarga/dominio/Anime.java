@@ -7,6 +7,11 @@ public class Anime {
     private int episodios;
     private String genero;
 
+    // [CONSTRUTOR]
+    //public Anime(String nome, String tipo, int episodios) {
+    //    this.init(nome, tipo, episodios);
+    //}
+
     // [METODOS]
     // Metodos init() separam lógica de inicialização,
     // centraliza código, facilita testes, evita duplicação e melhora a manutenção.
