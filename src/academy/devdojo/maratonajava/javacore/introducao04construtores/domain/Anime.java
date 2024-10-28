@@ -3,22 +3,31 @@ package academy.devdojo.maratonajava.javacore.introducao04construtores.domain;
 public class Anime {
     // [ATRIBUTOS]
     private String nome;
-    private String tipo;
     private int episodios;
     private String genero;
 
     // [CONSTRUTOR]
     public Anime(String nome, int episodios, String genero){
-        // O construtor inicializa objetos, garantindo valores iniciais e configurações essenciais.
+        // Inicializa os atributos com os valores passados como parâmetros
+        this();// Construtor sobrecarregado
+        this.nome = nome;
+        this.episodios = episodios;
+        this.genero = genero;
+        this.imprime();
+    }
+
+    // [SOBRECARGA]
+    // Sobrecarga do construtor com Sout
+    public Anime(){
         System.out.println("----------------");
         System.out.println("Informações do anime: ");
+        System.out.println("----------------");
     }
 
     // [METODOS]
     // Imprime
     public void imprime(){
         System.out.println(this.nome);
-        System.out.println(this.tipo);
         System.out.println(this.episodios);
         System.out.println(this.genero);
     }
@@ -29,12 +38,6 @@ public class Anime {
     }
     public void setNome(String nome) {
         this.nome = nome;
-    }
-    public String getTipo() {
-        return tipo;
-    }
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
     }
     public int getEpisodios() {
         return episodios;
