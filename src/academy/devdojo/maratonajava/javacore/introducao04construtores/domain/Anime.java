@@ -8,22 +8,13 @@ public class Anime {
     private String genero;
 
     // [CONSTRUTOR]
-    public Anime(String nome){
+    public Anime(String nome, int episodios, String genero){
         // O construtor inicializa objetos, garantindo valores iniciais e configurações essenciais.
         System.out.println("----------------");
         System.out.println("Informações do anime: ");
     }
 
     // [METODOS]
-    // Metodos init() separam lógica de inicialização,
-    // centraliza código, facilita testes, evita duplicação e melhora a manutenção.
-    public void init(String nome, String tipo, int episodios, String genero) {
-        this.nome = nome;
-        this.tipo = tipo;
-        this.episodios = episodios;
-        this.genero = genero;
-    }
-
     // Imprime
     public void imprime(){
         System.out.println(this.nome);
@@ -31,7 +22,6 @@ public class Anime {
         System.out.println(this.episodios);
         System.out.println(this.genero);
     }
-
 
     // [GETTERS AND SETTERS]
     public String getNome() {
