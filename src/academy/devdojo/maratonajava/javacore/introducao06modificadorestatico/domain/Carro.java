@@ -36,12 +36,15 @@ public class Carro {
         this.velocidadeMaxima = velocidadeMaxima;
     }
 
-    public double getVelocidadeLimite() {
+    public static double getVelocidadeLimite() {
         return velocidadeLimite;
     }
 
-    public void setVelocidadeLimite(double velocidadeLimite) {
-        this.velocidadeLimite = velocidadeLimite;
+    public static void setVelocidadeLimite(double velocidadeLimite) {
+        // Não pode se usar o "this" dentro do static void
+        // this.velocidadeLimite = velocidadeLimite;
+        Carro.velocidadeLimite = velocidadeLimite;
+
     }
 }
 
