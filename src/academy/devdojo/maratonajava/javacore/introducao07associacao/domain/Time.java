@@ -1,14 +1,21 @@
 package academy.devdojo.maratonajava.javacore.introducao07associacao.domain;
 
 public class Time {
+    // Atributos
     private String nome;
     private Jogador[] jogadores;
+
+    // Construtor
+    public Time(String nome) {
+        this.nome = nome;
+    }
 
     public Time(String nome, Jogador[] jogadores) {
         this.nome = nome;
         this.jogadores = jogadores;
     }
 
+    // Metodo imprime
     public void imprime(){
         System.out.println(this.nome);
         if(jogadores == null) return;
@@ -17,6 +24,7 @@ public class Time {
         }
     }
 
+    // Getters and Setters
     public Jogador[] getJogadores() {
         return jogadores;
     }
@@ -25,9 +33,6 @@ public class Time {
         this.jogadores = jogadores;
     }
 
-    public Time(String nome) {
-        this.nome = nome;
-    }
 
     public String getNome() {
         return nome;
