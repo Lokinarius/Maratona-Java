@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fa01836-9cda-4363-8e0a-38b2263d9071" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/introducao07associacao/test/AssociacaoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/introducao07associacao/domain/Local.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/introducao07associacao/domain/Local.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/introducao07associacao/domain/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/introducao07associacao/domain/Professor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +49,9 @@
     "Application.Aula008ArraysMultidimensionais01.executor": "Run",
     "Application.Aula008ArraysMultidimensionais02.executor": "Run",
     "Application.Calculadoratest01.executor": "Run",
+    "Application.DesafioPasso2.executor": "Run",
+    "Application.DesafioPasso3.executor": "Run",
+    "Application.DesafioPasso4.executor": "Run",
     "Application.FuncionarioTest.executor": "Run",
     "Application.OlaMundo.executor": "Run",
     "Application.ProfessorTest.executor": "Run",
@@ -67,24 +67,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="academy.devdojo.maratonajava" />
       <recent name="academy.devdojo.maratonajava.javacore.introducao06modificadorestatico.domain" />
       <recent name="academy.devdojo.maratonajava.introducao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test">
-    <configuration name="AnimeTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="academy.devdojo.maratonajava.javacore.introducao03sobrecarga.teste.AnimeTeste" />
-      <module name="Maratona-Java-Samurai" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="academy.devdojo.maratonajava.javacore.introducao03sobrecarga.teste.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.DesafioPasso4">
     <configuration name="Animetest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="academy.devdojo.maratonajava.javacore.introducao04construtores.teste.Animetest" />
       <module name="Maratona-Java-Samurai" />
@@ -98,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculadoraTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="academy.devdojo.maratonajava.javacore.introducao02metodos.teste.CalculadoraTest01" />
+    <configuration name="DesafioPasso2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="academy.devdojo.maratonajava.DesafioPasso2" />
       <module name="Maratona-Java-Samurai" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="academy.devdojo.maratonajava.javacore.introducao02metodos.teste.*" />
+          <option name="PATTERN" value="academy.devdojo.maratonajava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +99,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FuncionarioTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="academy.devdojo.maratonajava.javacore.introducao02metodos.teste.FuncionarioTest" />
+    <configuration name="DesafioPasso3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="academy.devdojo.maratonajava.DesafioPasso3" />
       <module name="Maratona-Java-Samurai" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="academy.devdojo.maratonajava.javacore.introducao02metodos.teste.*" />
+          <option name="PATTERN" value="academy.devdojo.maratonajava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DesafioPasso4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="academy.devdojo.maratonajava.DesafioPasso4" />
+      <module name="Maratona-Java-Samurai" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="academy.devdojo.maratonajava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DesafioPasso4" />
+        <item itemvalue="Application.DesafioPasso3" />
+        <item itemvalue="Application.DesafioPasso2" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.Animetest" />
-        <item itemvalue="Application.AnimeTeste" />
-        <item itemvalue="Application.FuncionarioTest" />
-        <item itemvalue="Application.CalculadoraTest01" />
       </list>
     </recent_temporary>
   </component>
