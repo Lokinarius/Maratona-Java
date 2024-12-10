@@ -4,8 +4,16 @@ public class Funcionario extends Pessoa{
     // atributos
     private double salario;
 
-    // imprime
-    
+    // Sobreescrita da classe pessoa
+    // public void imprime(){
+        // o metodo do pai é copiado sem necessidade de preencher dados
+    // }
+
+    // Metodo imprime sobreescrito com atributos proprios do objeto
+    public void imprime(){
+        super.imprime();
+        System.out.println(this.salario);
+    }
 
     // Gettters e Setters
     public double getSalario() {return salario;}
