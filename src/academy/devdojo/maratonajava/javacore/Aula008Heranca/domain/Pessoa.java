@@ -2,9 +2,9 @@ package academy.devdojo.maratonajava.javacore.Aula008Heranca.domain;
 
 public class Pessoa {
     // Atributos
-    private String nome;
-    private String cpf;
-    private Endereco endereco;
+    protected String nome;
+    protected String cpf;
+    protected Endereco endereco;
 
     // Construtor
 
