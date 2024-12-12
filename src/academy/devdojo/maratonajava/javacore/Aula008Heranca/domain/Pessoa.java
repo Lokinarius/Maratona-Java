@@ -8,6 +8,11 @@ public class Pessoa {
 
     // Construtor
 
+
+    public Pessoa(String nome) {
+        this.nome = nome;
+    }
+
     // Metodo
     public void imprime(){
         System.out.println(this.nome);
