@@ -4,6 +4,13 @@ public class Funcionario extends Pessoa{
     // atributos
     private double salario;
 
+    //[CONSTRUTOR]
+    public Funcionario(String nome) {
+        super(nome);
+        this.salario = salario;
+    }
+
+
     // Sobreescrita da classe pessoa
     // public void imprime(){
         // o metodo do pai é copiado sem necessidade de preencher dados
