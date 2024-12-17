@@ -7,7 +7,7 @@ public class Carro {
     // Constantes não podem ter o valor alterado
     // Constantes geralmente são acompanhadas do metod estatico
     // Constantes são descritas em Uppercase e separadas por underline caso tenham mais de uma palavra
-    public final Comprador COMPRADOR = new Comprador();
+    public static final Comprador COMPRADOR = new Comprador();
 
 
     //[GETTER E SETTERS]
