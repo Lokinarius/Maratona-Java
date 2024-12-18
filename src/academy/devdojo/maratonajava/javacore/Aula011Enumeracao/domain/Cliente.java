@@ -7,7 +7,7 @@ public class Cliente {
     private TipoPagamento tipoPagamento;
 
     // Enumeração
-    //também é possível criar uma enumeração dentro de uma classe
+    // também é possível criar uma enumeração dentro de uma classe
     public enum TipoPagamento{
         DEBITO, CREDITO
     }
