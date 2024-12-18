@@ -5,22 +5,23 @@ public class Cliente {
     private String nome;
     private TipoCliente tipoCliente;
 
-    //To string
+    // To string
     @Override
     public String toString() {
         return "Cliente{" +
                 "nome='" + nome + '\'' +
                 ", tipoCliente=" + tipoCliente +
+                ", tipoCliente=" + tipoCliente.getVALOR() +
                 '}';
     }
 
-    //Construtor
+    // Construtor
     public Cliente(String nome, TipoCliente tipoCliente) {
         this.nome = nome;
         this.tipoCliente = tipoCliente;
     }
 
-    //Getters e Setters
+    // Getters e Setters
     public String getNome() {return nome;}
     public void setNome(String nome) {this.nome = nome;}
 
