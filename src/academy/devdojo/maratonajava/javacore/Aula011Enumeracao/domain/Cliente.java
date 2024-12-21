@@ -9,7 +9,18 @@ public class Cliente {
     // Enumeração
     // também é possível criar uma enumeração dentro de uma classe
     public enum TipoPagamento{
-        DEBITO, CREDITO
+        DEBITO{
+            @Override
+            public double calcularDesconto(double valor) {
+                return valor * 0.1;
+            }
+        }, CREDITO{
+            @Override public double calcularDesconto(double valor){
+                return valor * 0.05;
+            }
+        };
+
+        public abstract double calcularDesconto(double valor);
     }
 
 
