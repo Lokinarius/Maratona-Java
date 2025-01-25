@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fa01836-9cda-4363-8e0a-38b2263d9071" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/Aula015Exception/runtime/test/RuntimeExceptionTest03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/Aula015Exception/exception/domain/Leitor1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/Aula015Exception/exception/domain/Leitor2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/Aula015Exception/exception/domain/LoginInvalidoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/Aula015Exception/exception/test/LoginInvalidoExceptionTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/Aula015Exception/exception/test/TryWithResourcesTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/Aula015Exception/runtime/test/RuntimeExceptionTest04.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
