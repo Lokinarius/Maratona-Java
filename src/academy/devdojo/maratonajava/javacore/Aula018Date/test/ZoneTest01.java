@@ -33,7 +33,7 @@ public class ZoneTest01 {
 
         OffsetDateTime offsetDateTime3 = nowInstant.atOffset(offsetManaus);
         System.out.println(offsetDateTime3);
-        
+
 
     }
 }
