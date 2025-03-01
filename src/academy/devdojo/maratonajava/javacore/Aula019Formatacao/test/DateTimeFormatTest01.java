@@ -36,6 +36,6 @@ public class DateTimeFormatTest01 {
         System.out.println(formatBR);
         LocalDate parseBR = LocalDate.parse("28/02/2025", formatterBR);
         System.out.println(parseBR);
-        
+
     }
 }
